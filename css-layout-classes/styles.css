@@ -6,6 +6,8 @@
 
 .row {
   display: flex;
+  width: 100%;
+  height: 100%;
 }
 
 .column-one-third {
@@ -22,5 +24,10 @@
 
 .ssbu-card {
   display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+img {
   width: 100%;
 }
