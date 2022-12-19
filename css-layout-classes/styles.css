@@ -31,3 +31,23 @@
 img {
   width: 100%;
 }
+
+img.one {
+  width: 250px;
+  height: 250px;
+}
+
+img.two {
+  width: 250px;
+  height: 250px;
+}
+
+img.three {
+  width: 250px;
+  height: 250px;
+}
+
+img.four {
+  width: 250px;
+  height: 250px;
+}
