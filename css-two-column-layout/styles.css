@@ -1,7 +1,7 @@
 .column-full {
   text-align: center;
   flex-basis: 100%;
-  width: 100%;
+  max-width: 100%;
 }
 
 .row {
@@ -26,12 +26,6 @@ body {
   font-weight: 400;
 }
 
-.picture {
-  display: inline-block;
-  margin: auto;
-  width: 25%;
-}
-
 .button {
   display: inline-block;
   font-size: 12px;
@@ -41,6 +35,12 @@ body {
   color: salmon;
   font-weight: bold;
   margin-top: 50px;
+}
+
+.picture {
+  display: flex;
+  margin: auto;
+  width: 20%;
 }
 
 h1 {
@@ -55,12 +55,14 @@ h2 {
 }
 
 h3 {
-  margin: auto;
-  width: 50%;
+  margin: 10px;
+  display: flex;
 }
 
 p {
-  width: 50%;
+  width: 40%;
   font-size: 75%;
-  margin: auto;
+  margin: 10px;
+  line-height: 20px;
+  display: flex;
 }
