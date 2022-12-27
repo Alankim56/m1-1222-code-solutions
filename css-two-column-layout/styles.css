@@ -27,11 +27,9 @@ body {
 }
 
 .picture {
-  display: flex;
-  margin-left: 20px;
-  margin-right: auto;
-  width: 20%;
-  float: left;
+  display: inline-block;
+  margin: auto;
+  width: 25%;
 }
 
 .button {
@@ -51,17 +49,18 @@ h1 {
 
 h2 {
   font-size: 14px;
-  margin-bottom: 30px;
-  width: 100%;
+  width: 60%;
+  margin: auto;
+  color: salmon;
 }
 
 h3 {
-  width: 60%;
+  margin: auto;
+  width: 50%;
 }
 
 p {
-  width: 70;
+  width: 50%;
   font-size: 75%;
-  margin-left: 150px;
-  margin-right: 180px;
+  margin: auto;
 }
