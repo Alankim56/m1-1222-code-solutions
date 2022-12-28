@@ -20,12 +20,13 @@
 
     var students= ['Pam', 'Zill', 'Vivian', 'Sarah']
     var numberOfStudents= students.length
-    var classroom = 'There are' + ' ' + numberOfStudents + ' students in the class';
+    var classroom = 'There are ' + numberOfStudents + ' students in the class';
     console.log(classroom);
-    var lastIndex= students.length - 1;
-    var lastStudent= lastIndex[2];
-    console.log(lastStudent);
-
+    var lastIndex= numberOfStudents - 1;
+    var lastStudent= students[lastIndex];
+    var classroomStudent = 'The last student in the array is' + ' ' + lastStudent;
+    console.log(classroomStudent);
+    console.log('value of students:',students);
 
   </script>
 </body>
