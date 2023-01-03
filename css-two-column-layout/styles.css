@@ -1,27 +1,26 @@
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1000px;
+  margin: auto;
+  width: 1000px;
 }
 
 .column-full {
-  text-align: center;
-  flex-basis: 100%;
-  max-width: 1000px;
+  width: 100%;
 }
 
-.column-one-thirds {
-  flex-basis: calc(100%/3);
-}
-
-.column-two-thirds {
-  flex-basis: calc(100%/3 * 2);
-  margin-top: 20px;
+.column-half {
+  width: 50%;
 }
 
 .row {
   display: flex;
-  text-align: center;
+}
+
+.column-three-fourths {
+  width: 75%;
+}
+
+.column-fourths {
+  width: 25%;
 }
 
 body {
@@ -30,8 +29,7 @@ body {
   font-weight: 400;
 }
 
-.button {
-  display: inline-block;
+button {
   font-size: 12px;
   padding: 10px 37px;
   background: white;
@@ -41,8 +39,14 @@ body {
   margin-top: 50px;
 }
 
+.buttonclass {
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
   font-size: 50px;
+  text-align: center;
 }
 
 h2 {
@@ -51,19 +55,28 @@ h2 {
   margin: auto;
   margin-bottom: 20px;
   color: salmon;
+  text-align: center;
 }
 
 h3 {
-  margin: 10px;
+  letter-spacing: 0.5px;
 }
 
 p {
-  width: 80%;
+  width: 100%;
   font-size: 80%;
   margin: auto;
   display: flex;
+  line-height: 20px;
+  padding-right: 20px;
 }
 
 .picture {
-  width: 80%;
+  width: 60%;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
