@@ -1,5 +1,5 @@
 .container {
-  width: 100%;
+  width: 25%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -7,7 +7,7 @@
 .row {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .column-full {
@@ -16,6 +16,7 @@
 
 .button-column {
   display: flex;
+  justify-content: flex-end;
 }
 
 body {
@@ -31,7 +32,7 @@ h1 {
   font-style: normal;
   font-weight: 300px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
 h2 {
@@ -44,7 +45,7 @@ h2 {
 }
 
 .form {
-  width: 20%;
+  width: 100%;
   padding: 5px;
   font-family: AtlasGrotesk, sans-serif;
   font-style: normal;
@@ -52,7 +53,6 @@ h2 {
   border: 1px solid lightslategray;
   margin: 10px;
   margin-left: 0;
-  margin-right: auto;
 }
 
 .button {
