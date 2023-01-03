@@ -1,27 +1,26 @@
 .container {
-  max-width: 1500px;
-  margin: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.column-fourths {
-  flex-basis: 25%;
-  text-align: center;
+.column-full {
+  width: 100%;
 }
 
 .button-column {
   display: flex;
-  flex-basis: 25%;
-  justify-content: flex-end;
 }
 
 body {
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  margin: auto;
 }
 
 h1 {
@@ -32,7 +31,7 @@ h1 {
   font-style: normal;
   font-weight: 300px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 h2 {
@@ -45,12 +44,15 @@ h2 {
 }
 
 .form {
-  width: 100%;
-  padding: 8px;
-  margin: 10px;
-  border-style: round;
+  width: 20%;
+  padding: 5px;
   font-family: AtlasGrotesk, sans-serif;
   font-style: normal;
+  border-radius: 25px;
+  border: 1px solid lightslategray;
+  margin: 10px;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .button {
