@@ -1,0 +1,72 @@
+.container {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.button-column {
+  display: flex;
+  justify-content: flex-end;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  margin: 10px;
+  color: indianred;
+  font-size: 15px;
+  font-family: AtlasGrotesk, sans-serif;
+  font-style: normal;
+  font-weight: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 10px;
+  margin: auto;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  display: flex;
+  font-weight: 50px;
+}
+
+.form {
+  width: 100%;
+  padding: 5px;
+  font-family: AtlasGrotesk, sans-serif;
+  font-style: normal;
+  border-radius: 25px;
+  border: 1px solid lightslategray;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.button {
+  background-color: indianred;
+  color: white;
+  border-radius: 500px;
+  padding: 7px;
+  width: 100px;
+  border-color: indianred;
+  margin-top: 10px;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+}
+
+select {
+  background: whitesmoke;
+}
