@@ -1,0 +1,82 @@
+.container {
+  margin: auto;
+  width: 1000px;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.row {
+  display: flex;
+}
+
+.column-three-fourths {
+  width: 75%;
+}
+
+.column-fourths {
+  width: 25%;
+}
+
+body {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+button {
+  font-size: 12px;
+  padding: 10px 37px;
+  background: white;
+  border-color: salmon;
+  color: salmon;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.buttonclass {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 13px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+  color: salmon;
+  text-align: center;
+}
+
+h3 {
+  letter-spacing: 0.5px;
+}
+
+p {
+  width: 100%;
+  font-size: 80%;
+  margin: auto;
+  display: flex;
+  line-height: 20px;
+  padding-right: 20px;
+}
+
+.picture {
+  width: 60%;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
