@@ -5,23 +5,16 @@
 }
 
 .row {
-  width: 100%;
   display: flex;
-  flex-direction: column;
 }
 
 .column-full {
   width: 100%;
 }
 
-.button-column {
+.end {
   display: flex;
   justify-content: flex-end;
-}
-
-body {
-  width: 100%;
-  margin: auto;
 }
 
 h1 {
@@ -30,7 +23,7 @@ h1 {
   font-size: 15px;
   font-family: AtlasGrotesk, sans-serif;
   font-style: normal;
-  font-weight: 300px;
+  font-weight: 700;
   display: flex;
   justify-content: center;
 }
@@ -41,7 +34,7 @@ h2 {
   font-family: "Brandon Grotesque", sans-serif;
   font-style: normal;
   display: flex;
-  font-weight: 50px;
+  font-weight: 500;
 }
 
 .form {
