@@ -1,0 +1,30 @@
+.container {
+  width: 1850px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: none;
+}
+
+.drk-button {
+  background-color: #333;
+}
+
+.lgt-button {
+  background-color: #ffff4d;
+}
+
+.light {
+  background-color: #ff9;
+}
+
+.dark {
+  background-color: #262626;
+}
