@@ -1,4 +1,4 @@
-var theForm = document.querySelector('#theForm');
+var theForm = document.querySelector('#contact-form');
 theForm.addEventListener('submit', logSubmit);
 
 function logSubmit(event) {
