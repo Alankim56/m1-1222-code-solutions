@@ -6,9 +6,9 @@ $tabContainer.addEventListener('click', function (e) {
   if (e.target.matches('.tab')) {
     for (var i = 0; i < $tabElements.length; i++) {
       if ($tabElements[i] === e.target) {
-        $tabElements[i].className = 'active';
+        $tabElements[i].className = 'tab active';
       } else {
-        $tabElements[i].className = 'inactive';
+        $tabElements[i].className = 'tab';
       }
     }
     var $dataView = e.target.getAttribute('data-view');
@@ -16,7 +16,7 @@ $tabContainer.addEventListener('click', function (e) {
       if ($viewElements[x].getAttribute('data-view') === $dataView) {
         $viewElements[x].className = 'view';
       } else {
-        $viewElements[x].className = 'hidden';
+        $viewElements[x].className = 'view hidden';
       }
     }
   }
