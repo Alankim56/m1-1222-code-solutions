@@ -1,6 +1,6 @@
 var $tabContainer = document.querySelector('.tab-container');
-var $tabElements = document.querySelector('.tab');
-var $viewElements = document.querySelector('.view');
+var $tabElements = document.querySelectorAll('.tab');
+var $viewElements = document.querySelectorAll('.view');
 
 $tabContainer.addEventListener('click', function (e) {
   if (e.target.matches('.tab')) {
