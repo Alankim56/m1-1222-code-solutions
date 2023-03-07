@@ -1,0 +1,23 @@
+.green {
+  color: yellowgreen;
+}
+
+.red {
+  color: red;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.word {
+  border-bottom: 2px solid black;
+}
+
+span {
+  padding-bottom: 10px;
+  white-space: pre;
+}
