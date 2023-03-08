@@ -1,0 +1,51 @@
+.column-fifth {
+  width: 20%;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  font-size: 45px;
+}
+
+.main {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.retail-price {
+  text-decoration: line-through;
+  color: lightgrey;
+  padding-left: 5px;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+h3 {
+  display: inline-block;
+  font-size: 90%;
+  margin-top: 15px;
+}
+
+.size {
+  color: lightgrey;
+  border-left: 1px lightgrey solid;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+.price {
+  color: red;
+  font-size: 15px;
+}
